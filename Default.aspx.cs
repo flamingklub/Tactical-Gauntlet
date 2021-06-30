@@ -41,8 +41,9 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(19);
+                    int num = random.Next(0, 19-i);
                     writer.WriteLine(klass[num]);
+                    klass.Remove(klass[num]);
                 }
                 i = 0;
             }
@@ -59,8 +60,9 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(30);
+                    int num = random.Next(0, 30 - i);
                     writer.WriteLine(klass[num]);
+                    klass.Remove(klass[num]);
                 }
                 i = 0;
             }
@@ -77,8 +79,9 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(14);
+                    int num = random.Next(0, 14 - i);
                     writer.WriteLine(klass[num]);
+                    klass.Remove(klass[num]);
                 }
                 i = 0;
             }
