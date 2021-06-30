@@ -1,0 +1,30 @@
+﻿Wizard
+Cleric
+Rune Fencer
+Knight
+Terror Knight
+Berserker
+Swordmaster
+Dragoon
+Ninja
+Rouge
+Fusilier
+Beast Tamer
+Warlock
+Necromancer
+Lich
+Divine Knight
+Lord
+Ranger
+Priest
+Princess
+Dark Priest
+Paladin
+Astromancer
+Vartan
+White Knight
+Shaman
+Wicce
+Songstress
+Buccaner
+Knight Commander

@@ -1,0 +1,19 @@
+﻿Chemist
+Knight
+Archer
+White Mage
+Black Mage
+Monk
+Theif
+Oracle
+Time Mage
+Geomancer
+Dragoon
+Mediator
+Summoner
+Samurai
+Ninja
+Calculator
+Dancer
+Bard
+Mime

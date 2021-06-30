@@ -1,0 +1,14 @@
+﻿Archer
+Wizard
+Ninja
+Knight
+Cleric
+Priest
+Beast Tamer
+Warlock
+Dragoon
+Swordmaster
+Dragon Tamer
+Witch
+Siren
+Valkyrie
