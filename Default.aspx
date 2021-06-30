@@ -16,7 +16,7 @@
             <asp:ListItem>5</asp:ListItem>
         </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server" Height="92px" Width="204px" Enabled="False" TextMode="MultiLine"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" Height="116px" Width="218px" Enabled="False" TextMode="MultiLine"></asp:TextBox>
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Randomize" OnClick="Button1_Click" />
