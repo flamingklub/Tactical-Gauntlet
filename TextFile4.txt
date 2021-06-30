@@ -1,0 +1,19 @@
+Scoundrel
+Knight
+Ranger
+Templar
+Peddler
+Reaver
+Gunner
+Assassin
+Duelist
+Mender
+Wizard
+Plague Doctor
+Alchemystic
+Druid
+Sorcerer
+Fellblade
+Warmage
+Gambler
+Gadgeteer

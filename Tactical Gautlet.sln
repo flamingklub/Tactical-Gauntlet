@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tactical Gautlet", "Tactical Gautlet.csproj", "{037A2E91-EEAE-457B-8D45-7AF5D2C16470}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AB9625C-A165-4BC5-A772-FEBD8325A03C}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile4.txt = TextFile4.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

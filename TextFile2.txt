@@ -1,30 +1,14 @@
-﻿Wizard
-Cleric
-Rune Fencer
+﻿Archer
+Wizard/Sorceress
+Cleric/Monk
+Spellblade/Valkyrie
 Knight
 Terror Knight
-Berserker
-Swordmaster
+Berserker/Freya
+Swordmaster/Blademaiden
 Dragoon
-Ninja
-Rouge
+Ninja/Kunoichi
+Rogue
 Fusilier
-Beast Tamer
-Warlock
-Necromancer
-Lich
-Divine Knight
-Lord
-Ranger
-Priest
-Princess
-Dark Priest
-Paladin
-Astromancer
-Vartan
-White Knight
-Shaman
-Wicce
-Songstress
-Buccaner
-Knight Commander
+Beast Tamer/Dragoner
+Warlock/Witch

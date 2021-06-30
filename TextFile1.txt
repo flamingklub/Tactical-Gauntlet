@@ -4,7 +4,7 @@ Archer
 White Mage
 Black Mage
 Monk
-Theif
+Thief
 Oracle
 Time Mage
 Geomancer

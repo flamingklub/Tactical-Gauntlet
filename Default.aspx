@@ -7,6 +7,7 @@
             <asp:ListItem>Final Fantasy Tactics</asp:ListItem>
             <asp:ListItem>Tactics Ogre</asp:ListItem>
             <asp:ListItem>Tactics Ogre: Knights of Lodis</asp:ListItem>
+            <asp:ListItem>Fell Seal</asp:ListItem>
         </asp:DropDownList>
         <br />
         <br />
