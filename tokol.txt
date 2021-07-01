@@ -1,5 +1,4 @@
-﻿TO:KOL
-Archer
+﻿Archer
 Wizard
 Ninja
 Knight

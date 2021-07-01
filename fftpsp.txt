@@ -1,5 +1,4 @@
-﻿FFT PS1
-Chemist
+﻿Chemist
 Knight
 Archer
 White Mage
@@ -17,3 +16,5 @@ Ninja
 Calculator
 Dancer
 Bard
+Onion Knight
+Dark Knight

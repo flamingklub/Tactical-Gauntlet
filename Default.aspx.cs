@@ -24,14 +24,14 @@ namespace Tactical_Gautlet
             File.WriteAllText(tmppath, String.Empty);
             StreamWriter writer = new StreamWriter(File.OpenWrite(tmppath));
 
-            var game = DropDownList1.SelectedItem.Value;
+            var game = DropDownList1.SelectedItem.Text;
             string count = DropDownList2.SelectedItem.Value;
             int rcount = int.Parse(count);
 
             if(game == "Final Fantasy Tactics Ps1")
             {
-                string path1 = Server.MapPath("TextFile1.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path1));
+                string path = Server.MapPath("fftps1.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -41,7 +41,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 20 - i);
+                    int num = random.Next(0, 19 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -49,8 +49,8 @@ namespace Tactical_Gautlet
             }
             if (game == "Final Fantasy Tactics PSP")
             {
-                string path5 = Server.MapPath("TextFile5.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path5));
+                string path = Server.MapPath("fftpsp.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -60,7 +60,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 22 - i);
+                    int num = random.Next(0, 21 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -68,8 +68,8 @@ namespace Tactical_Gautlet
             }
             if (game == "Tactics Ogre Ps1/SNES")
             {
-                string path2 = Server.MapPath("TextFile2.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path2));
+                string path = Server.MapPath("topssnes.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -79,7 +79,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 21 - i);
+                    int num = random.Next(0, 20 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -87,8 +87,8 @@ namespace Tactical_Gautlet
             }
             if (game == "Tactics Ogre PSP")
             {
-                string path6 = Server.MapPath("TextFile6.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path6));
+                string path = Server.MapPath("topsp.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -98,7 +98,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 17 - i);
+                    int num = random.Next(0, 16 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -106,8 +106,8 @@ namespace Tactical_Gautlet
             }
             if (game == "Tactics Ogre: Knights of Lodis")
             {
-                string path3 = Server.MapPath("TextFile3.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path3));
+                string path = Server.MapPath("tokol.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -117,7 +117,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 15 - i);
+                    int num = random.Next(0, 14 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -125,8 +125,8 @@ namespace Tactical_Gautlet
             }
             if (game == "Fell Seal")
             {
-                string path4 = Server.MapPath("TextFile4.txt");
-                StreamReader reader = new StreamReader(File.OpenRead(path4));
+                string path = Server.MapPath("fellseal.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path));
                 int i = 0;
                 string line;
                 var klass = new List<string>();
@@ -136,7 +136,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(1, 20 - i);
+                    int num = random.Next(0, 19 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }

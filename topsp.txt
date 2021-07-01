@@ -1,5 +1,4 @@
-﻿TO PSP
-Archer
+﻿Archer
 Beast Tamer
 Berzerker
 Cleric
