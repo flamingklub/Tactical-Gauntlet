@@ -28,7 +28,7 @@ namespace Tactical_Gautlet
             string count = DropDownList2.SelectedItem.Value;
             int rcount = int.Parse(count);
 
-            if(game == "Final Fantasy Tactics")
+            if(game == "Final Fantasy Tactics Ps1")
             {
                 string path1 = Server.MapPath("TextFile1.txt");
                 StreamReader reader = new StreamReader(File.OpenRead(path1));
@@ -41,13 +41,32 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(0, 19-i);
+                    int num = random.Next(1, 20 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
                 i = 0;
             }
-            if (game == "Tactics Ogre")
+            if (game == "Final Fantasy Tactics PSP")
+            {
+                string path5 = Server.MapPath("TextFile5.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path5));
+                int i = 0;
+                string line;
+                var klass = new List<string>();
+                while ((line = reader.ReadLine()) != null)
+                {
+                    klass.Add(line);
+                }
+                for (i = 0; i < rcount; i++)
+                {
+                    int num = random.Next(1, 22 - i);
+                    writer.WriteLine(klass[num]);
+                    klass.Remove(klass[num]);
+                }
+                i = 0;
+            }
+            if (game == "Tactics Ogre Ps1/SNES")
             {
                 string path2 = Server.MapPath("TextFile2.txt");
                 StreamReader reader = new StreamReader(File.OpenRead(path2));
@@ -60,7 +79,26 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(0, 14 - i);
+                    int num = random.Next(1, 21 - i);
+                    writer.WriteLine(klass[num]);
+                    klass.Remove(klass[num]);
+                }
+                i = 0;
+            }
+            if (game == "Tactics Ogre PSP")
+            {
+                string path6 = Server.MapPath("TextFile6.txt");
+                StreamReader reader = new StreamReader(File.OpenRead(path6));
+                int i = 0;
+                string line;
+                var klass = new List<string>();
+                while ((line = reader.ReadLine()) != null)
+                {
+                    klass.Add(line);
+                }
+                for (i = 0; i < rcount; i++)
+                {
+                    int num = random.Next(1, 17 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -79,7 +117,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(0, 14 - i);
+                    int num = random.Next(1, 15 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }
@@ -98,7 +136,7 @@ namespace Tactical_Gautlet
                 }
                 for (i = 0; i < rcount; i++)
                 {
-                    int num = random.Next(0, 19 - i);
+                    int num = random.Next(1, 20 - i);
                     writer.WriteLine(klass[num]);
                     klass.Remove(klass[num]);
                 }

@@ -1,14 +1,21 @@
-﻿Archer
-Wizard/Sorceress
-Cleric/Monk
-Spellblade/Valkyrie
+﻿TO PS1/SNES
+Ninja
+Beast Tamer
 Knight
-Terror Knight
-Berserker/Freya
-Swordmaster/Blademaiden
+Wizard
+Berzerker
+Cleric
+Witch
+Archer
 Dragoon
-Ninja/Kunoichi
-Rogue
-Fusilier
-Beast Tamer/Dragoner
-Warlock/Witch
+Sword Master
+Terror Knight
+Warlock
+Exorcist
+Gunner
+Priest
+Valkyrie
+Siren
+Dragon Tamer
+Angel Knight
+Lich

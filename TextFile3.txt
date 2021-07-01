@@ -1,4 +1,5 @@
-﻿Archer
+﻿TO:KOL
+Archer
 Wizard
 Ninja
 Knight
@@ -12,3 +13,5 @@ Dragon Tamer
 Witch
 Siren
 Valkyrie
+Lich
+Angel Knight

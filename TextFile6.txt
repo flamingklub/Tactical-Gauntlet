@@ -1,0 +1,17 @@
+﻿TO PSP
+Archer
+Beast Tamer
+Berzerker
+Cleric
+Divine/Angel Knight
+Dragon Tamer
+Dragoon
+Exorcist
+Knight
+Lich
+Necromancer
+Rouge
+Swordmaster
+Rune Fencer/Valkyrie
+Warlock/Witch
+Wizard/Enchantress
